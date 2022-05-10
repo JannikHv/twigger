@@ -13,3 +13,8 @@ Twigger ist a simple static site generator using Twig and SCSS.
 | `serve`             | Serve current twigger application |
 | `Clear`             | Clears the public directory       |
 
+## Installation
+
+Install globally from NPM:
+
+`npm i -g twigger`
