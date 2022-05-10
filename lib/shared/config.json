@@ -1,0 +1,29 @@
+{
+  "structure": [
+    { "path": "public", "type": "directory" },
+    { "path": "src", "type": "directory" },
+    { "path": "src/assets", "type": "directory" },
+    { "path": "src/styles", "type": "directory" },
+    { "path": "src/js", "type": "directory" },
+    { "path": "src/components", "type": "directory" },
+    { "path": "src/pages", "type": "directory" },
+
+    { "path": "src/pages/index.html.twig", "type": "file", "content": "" },
+    { "path": "src/styles/index.scss", "type": "file", "content": "" },
+    { "path": "src/js/main.js", "type": "file", "content": "" },
+
+    { "path": "public/.gitkeep", "type": "file", "content": "" },
+    { "path": "src/assets/.gitkeep", "type": "file", "content": "" },
+    { "path": "src/components/.gitkeep", "type": "file", "content": "" }
+  ],
+  "mapping": {
+    "pages": { "input": "src/pages", "output": "public" },
+    "assets": { "input": "src/assets", "output": "public/assets" },
+    "styles": { "input": "src/styles", "output": "public/assets" },
+    "js": { "input": "src/js", "output": "public/js" }
+  },
+  "base": {
+    "input": "src",
+    "output": "public"
+  }
+}
