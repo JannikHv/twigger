@@ -1,6 +1,6 @@
 {
   "name": "twigger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple static site generator using Twig",
   "main": "lib/twigger.js",
   "scripts": {},
