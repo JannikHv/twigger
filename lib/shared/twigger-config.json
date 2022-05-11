@@ -1,4 +1,5 @@
 {
   "cssOutputStyle": "compressed",
-  "minifyJs": true
+  "minifyJs": true,
+  "templateVariables": { }
 }

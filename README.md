@@ -30,7 +30,8 @@ The following configuration is used by default:
 ```json
 {
   "cssOutputStyle": "compressed",
-  "minifyJs": true
+  "minifyJs": true,
+  "templateVariables": { }
 }
 ```
 
@@ -38,9 +39,16 @@ The following configuration is used by default:
 
 - Type: `String`
 - Values: `"nested"`, `"expanded"`, `"compact"`, `"compressed"`
+- Default: `compressed`
 
 #### minifyJs
 
 - Type: `Boolean`
+- Default: `true`
+
+### templateVariables
+
+- Type: `Object`
+- Default: `{ }`
 
 You can override it by creating your own `twigger-config.json` in your project's root.
