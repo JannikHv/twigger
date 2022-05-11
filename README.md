@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://raw.githubusercontent.com/JannikHv/twigger/master/assets/twigger-logo.svg" width="200">
+</p>
+
 # Twigger
 
 Twigger ist a simple static site generator using Twig and SCSS.
