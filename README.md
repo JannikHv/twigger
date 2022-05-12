@@ -79,6 +79,10 @@ After initializing your twigger project, the following structure is built:
 | `src/components/` | Twig components that are included by Twig pages.             |
 | `src/styles/`     | SCSS styles that is optionally minified and written to the public directory as `style.css`. |
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JannikHv/twigger/master/assets/twigger-overview.png">
+</p>
+
 ## Get started
 
 1. Install twigger globally
