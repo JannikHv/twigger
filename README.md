@@ -42,7 +42,8 @@ The following configuration is used by default:
 {
   "cssOutputStyle": "compressed",
   "minifyJs": true,
-  "templateVariables": { }
+  "cssSourceMap": true,
+  "templateVariables": { },
 }
 ```
 
@@ -53,6 +54,11 @@ The following configuration is used by default:
 - Default: `compressed`
 
 #### minifyJs
+
+- Type: `Boolean`
+- Default: `true`
+
+### cssSourceMap
 
 - Type: `Boolean`
 - Default: `true`
