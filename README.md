@@ -38,13 +38,11 @@ Install globally from NPM:
 
 The following configuration is used by default:
 
-```json
-{
-  "cssOutputStyle": "compressed",
-  "minifyJs": true,
-  "cssSourceMap": true,
-  "templateVariables": { },
-}
+```yaml
+cssOutputStyle: "compressed"
+minifyJs: true
+cssSourceMap: true
+templateVariables: { }
 ```
 
 #### cssOutputStyle
@@ -70,7 +68,7 @@ Template variables can be globally accessed in your project's Twig files.
 - Type: `Object`
 - Default: `{ }`
 
-You can override it by editing the `twigger-config.json` in your project's root directory.
+You can override it by editing the `twigger-config.yaml` in your project's root directory.
 
 ## Basic Structure
 

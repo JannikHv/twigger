@@ -1,0 +1,4 @@
+cssOutputStyle: "compressed"
+minifyJs: true
+cssSourceMap: true
+templateVariables: { }
