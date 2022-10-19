@@ -48,7 +48,7 @@ templateVariables: { }
 #### cssOutputStyle
 
 - Type: `String`
-- Values: `"nested"`, `"expanded"`, `"compact"`, `"compressed"`
+- Values: `"expanded"`, `"compressed"`
 - Default: `compressed`
 
 #### minifyJs
