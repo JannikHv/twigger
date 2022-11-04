@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(8, 28, 79);
+  background: linear-gradient(90deg, rgba(8, 28, 79, 1) 0%, rgba(21, 124, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  color: #fff;
+
+  a {
+    padding: 1rem;
+
+    img#twigger-logo {
+      width: 100%;
+      height: auto;
+      max-width: 20rem;
+      display: flex;
+      border-radius: 1rem;
+      transition: filter 200ms linear;
+      filter: drop-shadow(0 0 1rem black);
+    }
+
+    &:hover {
+      img#twigger-logo {
+        filter: drop-shadow(0rem 0rem 2rem black);
+      }
+    }
+  }
+}

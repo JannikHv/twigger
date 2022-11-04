@@ -11,7 +11,7 @@ Twigger ist a simple static site generator using Twig and SCSS.
 My problem building a simple static HTML website was that...
 
 - ... I don't want to have redundant HTML
-  - so Twigger uses Twig that can include Twig components.
+  - so Twigger uses Twig that can include Twig templates.
 - ... I don't want to write plain CSS
   - so Twigger used SCSS, that is compiled and compressed to CSS by default.
 - ... I don't want to have bloated JavaScript files
@@ -80,11 +80,11 @@ After initializing your twigger project, the following structure is built:
 | `src/assets/`     | Assets directory that is synced to the public directory.     |
 | `src/js/`         | Each JavaScript file is optionally minified and written to the public directory. |
 | `src/pages/`      | Twig pages that are each rendered to HTML files in the public directory. |
-| `src/components/` | Twig components that are included by Twig pages.             |
+| `src/includes/`   | Twig templates that are included by Twig pages.             |
 | `src/styles/`     | SCSS styles that is optionally minified and written to the public directory as `style.css`. |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JannikHv/twigger/master/assets/twigger-overview.png">
+  <img src="https://raw.githubusercontent.com/JannikHv/twigger/master/assets/twigger-overview-v1.2.png">
 </p>
 
 ## Get started
